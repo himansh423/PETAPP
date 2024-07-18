@@ -1,0 +1,7 @@
+.button {
+  background: linear-gradient(
+    135deg,
+    rgb(231, 96, 28) 0%,
+    rgba(255, 125, 0, 1) 100%
+  );
+}
