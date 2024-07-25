@@ -7,7 +7,7 @@ const Header = () => {
     <div>
       <div className="h-20  flex items-center justify-between px-4 ">
         <div>
-          <Image src={imglogo} height={50} width={50} alt="logo" />
+          <Image src={imglogo}  width={50} alt="logo" />
         </div>
         <div className="flex items-center gap-3">
           <div className="text-gray-400 font-bold text-[22px]">

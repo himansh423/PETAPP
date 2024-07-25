@@ -25,7 +25,7 @@ const DogOptionScreen = () => {
             Adopt a Dog
           </h1>
         </Link>
-        <Link href={"/"} className="h-36 w-36  flex flex-col gap-3 items-center ">
+        <Link href={"/adoptdogplease"} className="h-36 w-36  flex flex-col gap-3 items-center ">
           <div className={`${styles.head}`}>
             <Image src={dogImgBuy} height={120} width={120} alt="dog" />
           </div>

@@ -24,7 +24,7 @@ const DogAdoptPage = () => {
       <div className="ProductContainer flex flex-col items-center">
         <div className="h-full shadow-xl rounded-md flex flex-col items-center mb-7 w-72 bg-yellow-300">
           <div className="h-[300px] rounded-md rounded-b-none w-full flex  justify-center overflow-hidden relative">
-            <Image src={dog} layout="fill" objectFit="cover" alt="Cute puppy" />
+            <Image src={dog} priority  layout="fill" objectFit="cover" alt="Cute puppy" />
           </div>
           <div className="detailContainer h-[150px] flex-col gap-2 flex bg-white w-full px-3 py-5 ">
             <div className="flex items-center gap-1 text-2xl ">
@@ -49,7 +49,7 @@ const DogAdoptPage = () => {
           <div className="w-full h-12 text-white text-[13px]">
             <button className="w-1/2 h-full bg-blue-600">Contact</button>
             <button className="text-white bg-orange-500 h-12 w-1/2">
-              See More Details...
+             <Link href={"/adoptdog/1"}>See More Details...</Link> 
             </button>
           </div>
         </div>
